@@ -39,6 +39,8 @@ import Underline from "@ckeditor/ckeditor5-basic-styles/src/underline.js";
 import WordCount from "@ckeditor/ckeditor5-word-count/src/wordcount.js";
 import AutoSave from "@ckeditor/ckeditor5-autosave/src/autosave";
 import Emoji from "ckeditor5-emojis/src/emoji";
+import MathType from "@wiris/mathtype-ckeditor5/src/plugin";
+
 class Editor extends ClassicEditor {}
 
 // Plugins to include in the build.
@@ -79,6 +81,7 @@ Editor.builtinPlugins = [
 	WordCount,
 	AutoSave,
 	Emoji,
+	MathType,
 ];
 
 // Editor configuration.
@@ -113,6 +116,8 @@ Editor.defaultConfig = {
 			"undo",
 			"redo",
 			"emoji",
+			"MathType",
+			"ChemType",
 		],
 	},
 	language: "fr",

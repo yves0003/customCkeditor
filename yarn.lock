@@ -84,7 +84,7 @@
   dependencies:
     ckeditor5 "^31.0.0"
 
-"@ckeditor/ckeditor5-core@^31.0.0":
+"@ckeditor/ckeditor5-core@>=23.0.0", "@ckeditor/ckeditor5-core@^31.0.0":
   version "31.0.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-core/-/ckeditor5-core-31.0.0.tgz#3559042497791a026be56bef5c0bbd18dacc8d74"
   integrity sha512-8AvolCaFC/iTDJViNAQk2uJr2LLRieCEc0Kda5OUT0xgeoUF+/B5DYSU3ie8cJOghBSjZmEoZFUApqGaDm0QIA==
@@ -139,7 +139,7 @@
     ckeditor5 "^31.0.0"
     lodash-es "^4.17.15"
 
-"@ckeditor/ckeditor5-engine@^31.0.0":
+"@ckeditor/ckeditor5-engine@>=23.0.0", "@ckeditor/ckeditor5-engine@^31.0.0":
   version "31.0.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-engine/-/ckeditor5-engine-31.0.0.tgz#629cdd6e8824a0679cd1842ce4f511234fba5a89"
   integrity sha512-RVsGWx2R9T0cgDZtEo6O5GihvKB3PHoM7SJ/qbmDDWKuhJ/89KZDrWuFrgdNyfZsZwdgNplwnvX8gDvSHpRqkw==
@@ -299,7 +299,7 @@
     "@ckeditor/ckeditor5-utils" "^31.0.0"
     lodash-es "^4.17.15"
 
-"@ckeditor/ckeditor5-ui@^31.0.0":
+"@ckeditor/ckeditor5-ui@>=23.0.0", "@ckeditor/ckeditor5-ui@^31.0.0":
   version "31.0.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-ui/-/ckeditor5-ui-31.0.0.tgz#1c3e7703a99bb3a0e80cab7356d0dc593dc0ef14"
   integrity sha512-WDEwToA8FOPi/AeYqdF6isdTM7hJp26WzxDhDNGWC8aYu/zA146Z07qTbYuBOebG9TWqjsZOQYDXbH/4phmyDg==
@@ -333,7 +333,7 @@
   dependencies:
     lodash-es "^4.17.15"
 
-"@ckeditor/ckeditor5-widget@^31.0.0":
+"@ckeditor/ckeditor5-widget@>=23.0.0", "@ckeditor/ckeditor5-widget@^31.0.0":
   version "31.0.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-widget/-/ckeditor5-widget-31.0.0.tgz#b6bfe9643b36498f11dc44c3dec7bd721eab7081"
   integrity sha512-MCpBdT2sD/nRgC825aIaI1Tu7T6OQYvNxc6Q4D+gNkdRbLLZrGoWKHNZdgmQg9Di1WgVO1cPo+h45HO2KYHAMA==
@@ -608,6 +608,25 @@
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/@webpack-cli/serve/-/serve-1.6.0.tgz#2c275aa05c895eccebbfc34cfb223c6e8bd591a2"
   integrity sha512-ZkVeqEmRpBV2GHvjjUZqEai2PpUbuq8Bqd//vEYsp63J8WyexI8ppCqVS3Zs0QADf6aWuPdU+0XsPI647PVlQA==
+
+"@wiris/mathtype-ckeditor5@^7.27.2":
+  version "7.27.2"
+  resolved "https://registry.yarnpkg.com/@wiris/mathtype-ckeditor5/-/mathtype-ckeditor5-7.27.2.tgz#afdde4c97d1b6202aacdd397f3c484516afc76da"
+  integrity sha512-L2Td3Kvb4IlLBXMHVjtegX4gcsa33Y+5rpH40yeGlfKqAlu5HVibmAX7TtPFWd88fxp841C/CYerlE65xp3afQ==
+  dependencies:
+    "@ckeditor/ckeditor5-core" ">=23.0.0"
+    "@ckeditor/ckeditor5-engine" ">=23.0.0"
+    "@ckeditor/ckeditor5-ui" ">=23.0.0"
+    "@ckeditor/ckeditor5-widget" ">=23.0.0"
+    "@wiris/mathtype-html-integration-devkit" "1.6.1"
+
+"@wiris/mathtype-html-integration-devkit@1.6.1":
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/@wiris/mathtype-html-integration-devkit/-/mathtype-html-integration-devkit-1.6.1.tgz#e03cd680b71e3399a7e0d817f95c0053d09b5e62"
+  integrity sha512-4LWvlQHq4fXZh8S4ddyfS7JrR4D9ogfPBpQGONXUZLlPZ10ud3i1VrVKrkhoKQjnGNRwtVhnxilN7bahSeRVGA==
+  dependencies:
+    raw-loader "^4.0.2"
+    uuid "^8.3.2"
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
@@ -4932,6 +4951,11 @@ util@^0.11.0:
   integrity sha512-HShAsny+zS2TZfaXxD9tYj4HQGlBezXZMZuM/S5PKLLoZkShZiGk9o5CzukI1LVHZvjdvZ2Sj1aW/Ndn2NB/HQ==
   dependencies:
     inherits "2.0.3"
+
+uuid@^8.3.2:
+  version "8.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
 vendors@^1.0.0:
   version "1.0.4"
