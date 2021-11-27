@@ -274,6 +274,13 @@
     "@ckeditor/ckeditor5-ui" "^31.0.0"
     "@ckeditor/ckeditor5-utils" "^31.0.0"
 
+"@ckeditor/ckeditor5-special-characters@^31.0.0":
+  version "31.0.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-special-characters/-/ckeditor5-special-characters-31.0.0.tgz#d6534ee116e03f4b11ebd3e37db68a833ad594eb"
+  integrity sha512-ja7WjK+GHpfql+CmVV1R6m5ukiQwwenFaiwyf0e8JYrvG0h7brt32ala8Faum/HvwpaTjoLJZRLlxgtt1sTdQg==
+  dependencies:
+    ckeditor5 "^31.0.0"
+
 "@ckeditor/ckeditor5-table@^31.0.0":
   version "31.0.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-table/-/ckeditor5-table-31.0.0.tgz#40e19b8dca19f8d7163416bfce3196a122c28323"

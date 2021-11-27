@@ -40,6 +40,8 @@ import WordCount from "@ckeditor/ckeditor5-word-count/src/wordcount.js";
 import AutoSave from "@ckeditor/ckeditor5-autosave/src/autosave";
 import Emoji from "ckeditor5-emojis/src/emoji";
 import MathType from "@wiris/mathtype-ckeditor5/src/plugin";
+import SpecialCharacters from "@ckeditor/ckeditor5-special-characters/src/specialcharacters";
+import SpecialCharactersEssentials from "@ckeditor/ckeditor5-special-characters/src/specialcharactersessentials";
 
 class Editor extends ClassicEditor {}
 
@@ -82,6 +84,8 @@ Editor.builtinPlugins = [
 	AutoSave,
 	Emoji,
 	MathType,
+	SpecialCharacters,
+	SpecialCharactersEssentials,
 ];
 
 // Editor configuration.
@@ -118,6 +122,7 @@ Editor.defaultConfig = {
 			"emoji",
 			"MathType",
 			"ChemType",
+			"specialCharacters",
 		],
 	},
 	language: "fr",

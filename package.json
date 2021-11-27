@@ -49,6 +49,7 @@
     "build": "webpack --mode production"
   },
   "dependencies": {
+    "@ckeditor/ckeditor5-special-characters": "^31.0.0",
     "@wiris/mathtype-ckeditor5": "^7.27.2"
   }
 }
